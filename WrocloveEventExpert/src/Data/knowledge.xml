@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<events
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='file:/Users/ABstraktED/NetBeansProjects/WrocloveEventExpert/src/Data/knowledgeSchema.xsd'>
+    <event name="">
+        <activityType></activityType>
+        <activeActivities></activeActivities>
+        <passiveActivities></passiveActivities>
+        <ageCategory></ageCategory>
+        <beverage></beverage>
+        <cost></cost>
+        <day></day>
+        <daytime></daytime>
+        <dressCode></dressCode>
+        <eventType></eventType>
+        <musicLoudness></musicLoudness>
+        <musicType></musicType>
+        <peopleAmount></peopleAmount>
+        <weatherType></weatherType>
+    </event>
+    <eventDescription>
+        <mainContent></mainContent>
+        <additionalInformation></additionalInformation>
+        <funFacts></funFacts>
+    </eventDescription>
+
+</events>

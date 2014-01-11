@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+    <xs:element name="events">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="event">
+                    <xs:complexType>
+                        <xs:attribute name="name" type="xs:string" use="required"/>
+                        <xs:sequence>
+                            <xs:element name="activityType">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="ACTIVE"/>
+                                        <xs:enumeration value="PASSIVE"/>
+                                        <xs:enumeration value="IRRELEVANT"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="activeActivities">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="BOWLING"/>
+                                        <xs:enumeration value="FITNESS"/>
+                                        <xs:enumeration value="SWIMMING"/>
+                                        <xs:enumeration value="SQUASH"/>
+                                        <xs:enumeration value="CARTING"/>
+                                        <xs:enumeration value="IRRELEVANT"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="passiveActivities">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="DATE"/>
+                                        <xs:enumeration value="POOL"/>
+                                        <xs:enumeration value="GAMING"/>
+                                        <xs:enumeration value="EATING"/>
+                                        <xs:enumeration value="THEATRE"/>
+                                        <xs:enumeration value="GAMBLING"/>
+                                        <xs:enumeration value="BASKETBALL"/>
+                                        <xs:enumeration value="SOCCER"/>
+                                        <xs:enumeration value="FOOTBALL"/>
+                                        <xs:enumeration value="SHISHA"/>
+                                        <xs:enumeration value="SPEEDWAY"/>
+                                        <xs:enumeration value="IRRELEVANT"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="ageCategory">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="KIDS"/>
+                                        <xs:enumeration value="TEENAGERS"/>
+                                        <xs:enumeration value="STUDENTS"/>
+                                        <xs:enumeration value="ADULTS"/>
+                                        <xs:enumeration value="IRRELEVANT"/> 
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="beverage">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="ALCOHOL"/>
+                                        <xs:enumeration value="COFFEE"/>
+                                        <xs:enumeration value="TEA"/>
+                                        <xs:enumeration value="JUICE"/>
+                                        <xs:enumeration value="DRINK"/>
+                                        <xs:enumeration value="MANY"/>
+                                        <xs:enumeration value="IRRELEVANT"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="cost">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="CHEAP"/>
+                                        <xs:enumeration value="MODERATE"/>
+                                        <xs:enumeration value="EXPENSIVE"/>
+                                        <xs:enumeration value="IRRELEVANT"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="day">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="MONDAY"/>
+                                        <xs:enumeration value="TUESDAY"/>
+                                        <xs:enumeration value="WEDNESDAY"/>
+                                        <xs:enumeration value="THURSDAY"/>
+                                        <xs:enumeration value="FRIDAY"/>
+                                        <xs:enumeration value="SATURDAY"/>
+                                        <xs:enumeration value="SUNDAY"/>
+                                        <xs:enumeration value="IRRELEVANT"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="daytime">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="MORNING"/>
+                                        <xs:enumeration value="NOON"/>
+                                        <xs:enumeration value="EVENING"/>
+                                        <xs:enumeration value="NIGHT"/>
+                                        <xs:enumeration value="IRRELEVANT"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="dressCode">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="CASUAL"/>
+                                        <xs:enumeration value="OFFICIAL"/>
+                                        <xs:enumeration value="THEMATIC"/>
+                                        <xs:enumeration value="IRRELEVANT"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="eventType">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="PUBLIC"/>
+                                        <xs:enumeration value="PRIVATE"/>
+                                        <xs:enumeration value="OFFICIAL"/>
+                                        <xs:enumeration value="ENTERTAINMENT"/>
+                                        <xs:enumeration value="RECREATION"/>
+                                        <xs:enumeration value="EATING"/>
+                                        <xs:enumeration value="DATE"/>
+                                        <xs:enumeration value="SHOPPPING"/>
+                                        <xs:enumeration value="IRRELEVANT"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="musicLoudness">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="LOW"/>
+                                        <xs:enumeration value="MODERATE"/>
+                                        <xs:enumeration value="HIGH"/>
+                                        <xs:enumeration value="IRRELEVANT"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="musicType">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="ROCK"/>
+                                        <xs:enumeration value="CLASSICAL"/>
+                                        <xs:enumeration value="MODERN"/>
+                                        <xs:enumeration value="IRRELEVANT"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="peopleAmount">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="LOW"/>
+                                        <xs:enumeration value="MODERATE"/>
+                                        <xs:enumeration value="HIGH"/>
+                                        <xs:enumeration value="IRRELEVANT"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="weatherType">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="SUNNY"/>
+                                        <xs:enumeration value="RAINY"/>
+                                        <xs:enumeration value="WARM"/>
+                                        <xs:enumeration value="COLD"/>
+                                        <xs:enumeration value="IRRELEVANT"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="eventDescription">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="mainContent" type="xs:string"/>
+                            <xs:element name="additionalInformation" type="xs:string"/>
+                            <xs:element name="funFacts" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+</xs:schema>
