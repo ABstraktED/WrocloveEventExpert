@@ -8,6 +8,9 @@ package Classes;
 
 import Enums.*;
 import java.util.ArrayList;
+import javax.swing.JButton;
+import javax.swing.JOptionPane;
+import javax.swing.border.TitledBorder;
 
 
 /**
@@ -32,21 +35,681 @@ public class MainWindow extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        answersGroup = new javax.swing.ButtonGroup();
+        mainPanel = new javax.swing.JPanel();
+        eventsPanel = new javax.swing.JPanel();
+        eventsLabel = new javax.swing.JLabel();
+        czajowniaButton = new javax.swing.JButton();
+        renomaButton = new javax.swing.JButton();
+        odZmierzchuDoŚwituButton = new javax.swing.JButton();
+        galeriaDominikańskaButton = new javax.swing.JButton();
+        magnoliaButton = new javax.swing.JButton();
+        monopolRoofButton = new javax.swing.JButton();
+        arkadyButton = new javax.swing.JButton();
+        upButton = new javax.swing.JButton();
+        czarnyKotButton = new javax.swing.JButton();
+        daytonaButton = new javax.swing.JButton();
+        teatrWspolczesnyButton = new javax.swing.JButton();
+        gafaButton = new javax.swing.JButton();
+        polishTheatreButton = new javax.swing.JButton();
+        sombreroButton = new javax.swing.JButton();
+        teatrKomediaButton = new javax.swing.JButton();
+        aquaparkButton = new javax.swing.JButton();
+        casaDeLaMusicaButton = new javax.swing.JButton();
+        gliniankiButton = new javax.swing.JButton();
+        puzzleButton = new javax.swing.JButton();
+        wroclawskieCentrumSpaButton = new javax.swing.JButton();
+        stadionMiejski_soccerButton = new javax.swing.JButton();
+        halaOrbita_basketballButton = new javax.swing.JButton();
+        stadionMiejski_speedwayButton = new javax.swing.JButton();
+        mundoButton = new javax.swing.JButton();
+        stadionMiejski_footballButton = new javax.swing.JButton();
+        zooButton = new javax.swing.JButton();
+        padBarButton = new javax.swing.JButton();
+        capitolButton = new javax.swing.JButton();
+        kasynoOlimpiqueButton = new javax.swing.JButton();
+        sushi77Button = new javax.swing.JButton();
+        chaczapuriButton = new javax.swing.JButton();
+        amalfiButton = new javax.swing.JButton();
+        capriPizzaButton = new javax.swing.JButton();
+        rodeoBarButton = new javax.swing.JButton();
+        hastaLaVistaButton = new javax.swing.JButton();
+        sportwerkButton = new javax.swing.JButton();
+        fugaMundiButton = new javax.swing.JButton();
+        sezamButton = new javax.swing.JButton();
+        skyBowlingButton = new javax.swing.JButton();
+        mirazBowlingButton = new javax.swing.JButton();
+        creatorBowlingButton = new javax.swing.JButton();
+        skyTowerFitnessButton = new javax.swing.JButton();
+        classicFitnessButton = new javax.swing.JButton();
+        pureJatomiFitnessRenoma = new javax.swing.JButton();
+        pureJatomiFitnessPasazGrunwaldzkiButton = new javax.swing.JButton();
+        questionPanel = new javax.swing.JPanel();
+        questionTitleLabel = new javax.swing.JLabel();
+        questionNumberLabel = new javax.swing.JLabel();
+        questionLabel = new javax.swing.JLabel();
+        answersPanel = new javax.swing.JPanel();
+        answersLabel = new javax.swing.JLabel();
+        radioButton1 = new javax.swing.JRadioButton();
+        radioButton2 = new javax.swing.JRadioButton();
+        radioButton3 = new javax.swing.JRadioButton();
+        radioButton4 = new javax.swing.JRadioButton();
+        radioButton5 = new javax.swing.JRadioButton();
+        radioButton6 = new javax.swing.JRadioButton();
+        radioButton7 = new javax.swing.JRadioButton();
+        radioButton8 = new javax.swing.JRadioButton();
+        radioButton9 = new javax.swing.JRadioButton();
+        radioButton10 = new javax.swing.JRadioButton();
+        radioButton11 = new javax.swing.JRadioButton();
+        radioButton12 = new javax.swing.JRadioButton();
+        radioButton13 = new javax.swing.JRadioButton();
+        radioButton14 = new javax.swing.JRadioButton();
+        nextQuestionButton = new javax.swing.JButton();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Wroclove Event Expert");
+        setForeground(java.awt.Color.lightGray);
+        setLocation(new java.awt.Point(100, 100));
+        setMaximumSize(new java.awt.Dimension(1100, 600));
+        setName("Wroclove Event Expert"); // NOI18N
+        setPreferredSize(new java.awt.Dimension(1050, 700));
+        setResizable(false);
+        setSize(new java.awt.Dimension(1050, 700));
+
+        mainPanel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
+        mainPanel.setMaximumSize(new java.awt.Dimension(1000, 600));
+        mainPanel.setPreferredSize(new java.awt.Dimension(1000, 600));
+        mainPanel.setSize(new java.awt.Dimension(1000, 600));
+
+        eventsPanel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        eventsLabel.setText("Events");
+
+        czajowniaButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        czajowniaButton.setText("Czajownia");
+        czajowniaButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        renomaButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        renomaButton.setText("Renoma");
+        renomaButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        odZmierzchuDoŚwituButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        odZmierzchuDoŚwituButton.setText("Od Zmierzchu do Świtu");
+        odZmierzchuDoŚwituButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        galeriaDominikańskaButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        galeriaDominikańskaButton.setText("Dominikańska Gallery");
+        galeriaDominikańskaButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        magnoliaButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        magnoliaButton.setText("Magnolia Park");
+        magnoliaButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        monopolRoofButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        monopolRoofButton.setText("Monopol's Roof");
+        monopolRoofButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        arkadyButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        arkadyButton.setText("Arkady");
+        arkadyButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        upButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        upButton.setText("Up");
+        upButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        czarnyKotButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        czarnyKotButton.setText("Czarny Kot");
+        czarnyKotButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        daytonaButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        daytonaButton.setText("Daytona");
+        daytonaButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        teatrWspolczesnyButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        teatrWspolczesnyButton.setText("Modern Theatre");
+        teatrWspolczesnyButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        gafaButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        gafaButton.setText("Gafa");
+        gafaButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        polishTheatreButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        polishTheatreButton.setText("Polish Theatre");
+        polishTheatreButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        sombreroButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        sombreroButton.setText("Sombrero");
+        sombreroButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        teatrKomediaButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        teatrKomediaButton.setText("Comedy Theatre");
+        teatrKomediaButton.setActionCommand("");
+        teatrKomediaButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        aquaparkButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        aquaparkButton.setText("Aquapark");
+        aquaparkButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        casaDeLaMusicaButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        casaDeLaMusicaButton.setText("Casa De La Musica");
+        casaDeLaMusicaButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        gliniankiButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        gliniankiButton.setText("Glinianki");
+        gliniankiButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        puzzleButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        puzzleButton.setText("Puzzle");
+        puzzleButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        wroclawskieCentrumSpaButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        wroclawskieCentrumSpaButton.setText("SPA Center");
+        wroclawskieCentrumSpaButton.setToolTipText("");
+        wroclawskieCentrumSpaButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        stadionMiejski_soccerButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        stadionMiejski_soccerButton.setText("City's Stadium (soccer)");
+        stadionMiejski_soccerButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        halaOrbita_basketballButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        halaOrbita_basketballButton.setText("Orbit's Hall");
+        halaOrbita_basketballButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        stadionMiejski_speedwayButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        stadionMiejski_speedwayButton.setText("City's Stadium (speedway)");
+        stadionMiejski_speedwayButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        mundoButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        mundoButton.setText("Mundo71");
+        mundoButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        stadionMiejski_footballButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        stadionMiejski_footballButton.setText("City's Stadium (football)");
+        stadionMiejski_footballButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        zooButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        zooButton.setText("Zoo");
+        zooButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        padBarButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        padBarButton.setText("Pad Bar");
+        padBarButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        capitolButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        capitolButton.setText("Capitol Theatre");
+        capitolButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        kasynoOlimpiqueButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        kasynoOlimpiqueButton.setText("Casino Olimpique");
+        kasynoOlimpiqueButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        sushi77Button.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        sushi77Button.setText("Sushi77");
+        sushi77Button.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        chaczapuriButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        chaczapuriButton.setText("Chaczapuri");
+        chaczapuriButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        amalfiButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        amalfiButton.setText("Amalfi");
+        amalfiButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        capriPizzaButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        capriPizzaButton.setText("Capri Pizza");
+        capriPizzaButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        rodeoBarButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        rodeoBarButton.setText("Rodeo Bar");
+        rodeoBarButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        hastaLaVistaButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        hastaLaVistaButton.setText("Hasta La Vista");
+        hastaLaVistaButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        sportwerkButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        sportwerkButton.setText("Sportwerk");
+        sportwerkButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        fugaMundiButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        fugaMundiButton.setText("Fuga Mundi");
+        fugaMundiButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        sezamButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        sezamButton.setText("Sezam");
+        sezamButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        skyBowlingButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        skyBowlingButton.setText("SkyBowling");
+        skyBowlingButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        mirazBowlingButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        mirazBowlingButton.setText("Miraż Bowling");
+        mirazBowlingButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        creatorBowlingButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        creatorBowlingButton.setText("Creator Bowling");
+        creatorBowlingButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        skyTowerFitnessButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        skyTowerFitnessButton.setText("Sky Tower Fitness");
+        skyTowerFitnessButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        classicFitnessButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        classicFitnessButton.setText("Classic Fitness");
+        classicFitnessButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        pureJatomiFitnessRenoma.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        pureJatomiFitnessRenoma.setText("Pure Jatomi Fitness Renoma");
+        pureJatomiFitnessRenoma.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        pureJatomiFitnessPasazGrunwaldzkiButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        pureJatomiFitnessPasazGrunwaldzkiButton.setText("Pure Jatomi Fitness Pasaż Grunwaldzki");
+        pureJatomiFitnessPasazGrunwaldzkiButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+
+        javax.swing.GroupLayout eventsPanelLayout = new javax.swing.GroupLayout(eventsPanel);
+        eventsPanel.setLayout(eventsPanelLayout);
+        eventsPanelLayout.setHorizontalGroup(
+            eventsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(eventsPanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(eventsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, eventsPanelLayout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addGroup(eventsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, eventsPanelLayout.createSequentialGroup()
+                                .addComponent(monopolRoofButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(arkadyButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(upButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(czarnyKotButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(daytonaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, eventsPanelLayout.createSequentialGroup()
+                                .addComponent(teatrWspolczesnyButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(gafaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(polishTheatreButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(sombreroButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(teatrKomediaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, eventsPanelLayout.createSequentialGroup()
+                                .addComponent(aquaparkButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(casaDeLaMusicaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(gliniankiButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(puzzleButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(wroclawskieCentrumSpaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, eventsPanelLayout.createSequentialGroup()
+                                .addComponent(stadionMiejski_soccerButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(halaOrbita_basketballButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(stadionMiejski_speedwayButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(mundoButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(stadionMiejski_footballButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, eventsPanelLayout.createSequentialGroup()
+                                .addComponent(zooButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(padBarButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(capitolButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(kasynoOlimpiqueButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(sushi77Button, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, eventsPanelLayout.createSequentialGroup()
+                                .addComponent(creatorBowlingButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(skyTowerFitnessButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(classicFitnessButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(pureJatomiFitnessRenoma, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(pureJatomiFitnessPasazGrunwaldzkiButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(eventsPanelLayout.createSequentialGroup()
+                        .addGroup(eventsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(eventsLabel)
+                            .addGroup(eventsPanelLayout.createSequentialGroup()
+                                .addComponent(czajowniaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(renomaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(odZmierzchuDoŚwituButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(galeriaDominikańskaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(magnoliaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(eventsPanelLayout.createSequentialGroup()
+                                .addComponent(chaczapuriButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(amalfiButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(capriPizzaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(rodeoBarButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(hastaLaVistaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(eventsPanelLayout.createSequentialGroup()
+                                .addComponent(sportwerkButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(fugaMundiButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(sezamButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(skyBowlingButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(mirazBowlingButton, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        eventsPanelLayout.setVerticalGroup(
+            eventsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(eventsPanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(eventsLabel)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(eventsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(czajowniaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(renomaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(odZmierzchuDoŚwituButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(galeriaDominikańskaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(magnoliaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(eventsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(monopolRoofButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(arkadyButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(upButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(czarnyKotButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(daytonaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(eventsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(teatrWspolczesnyButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(gafaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(polishTheatreButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(sombreroButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(teatrKomediaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(eventsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(aquaparkButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(casaDeLaMusicaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(gliniankiButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(puzzleButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(wroclawskieCentrumSpaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(eventsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(stadionMiejski_soccerButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(halaOrbita_basketballButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(stadionMiejski_speedwayButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(mundoButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(stadionMiejski_footballButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(eventsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(zooButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(padBarButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(capitolButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(kasynoOlimpiqueButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(sushi77Button, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(eventsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(chaczapuriButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(amalfiButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(capriPizzaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(rodeoBarButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(hastaLaVistaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(eventsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(sportwerkButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(fugaMundiButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(sezamButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(skyBowlingButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(mirazBowlingButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(eventsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(creatorBowlingButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(skyTowerFitnessButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(classicFitnessButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pureJatomiFitnessRenoma, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pureJatomiFitnessPasazGrunwaldzkiButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(154, Short.MAX_VALUE))
+        );
+
+        questionPanel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        questionTitleLabel.setText("Question");
+
+        questionNumberLabel.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
+        questionNumberLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        questionNumberLabel.setText("1");
+
+        questionLabel.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        questionLabel.setText("How are you feeling today?");
+
+        javax.swing.GroupLayout questionPanelLayout = new javax.swing.GroupLayout(questionPanel);
+        questionPanel.setLayout(questionPanelLayout);
+        questionPanelLayout.setHorizontalGroup(
+            questionPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(questionPanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(questionPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(questionLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 423, Short.MAX_VALUE)
+                    .addGroup(questionPanelLayout.createSequentialGroup()
+                        .addComponent(questionTitleLabel)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(questionNumberLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap())
+        );
+        questionPanelLayout.setVerticalGroup(
+            questionPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(questionPanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(questionPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(questionNumberLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                    .addComponent(questionTitleLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(questionLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 62, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+
+        answersPanel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        answersLabel.setText("Answers");
+
+        answersGroup.add(radioButton1);
+        radioButton1.setText("jRadioButton1");
+        radioButton1.setActionCommand("radioButton1");
+
+        answersGroup.add(radioButton2);
+        radioButton2.setText("jRadioButton2");
+        radioButton2.setActionCommand("radioButton2");
+
+        answersGroup.add(radioButton3);
+        radioButton3.setText("jRadioButton3");
+        radioButton3.setActionCommand("radioButton3");
+
+        answersGroup.add(radioButton4);
+        radioButton4.setText("jRadioButton13");
+        radioButton4.setActionCommand("radioButton4");
+
+        answersGroup.add(radioButton5);
+        radioButton5.setText("jRadioButton14");
+        radioButton5.setActionCommand("radioButton5");
+
+        answersGroup.add(radioButton6);
+        radioButton6.setText("jRadioButton15");
+        radioButton6.setActionCommand("radioButton6");
+
+        answersGroup.add(radioButton7);
+        radioButton7.setText("jRadioButton16");
+        radioButton7.setActionCommand("radioButton7");
+
+        answersGroup.add(radioButton8);
+        radioButton8.setText("jRadioButton17");
+        radioButton8.setActionCommand("radioButton8");
+
+        answersGroup.add(radioButton9);
+        radioButton9.setText("jRadioButton18");
+        radioButton9.setActionCommand("radioButton9");
+
+        answersGroup.add(radioButton10);
+        radioButton10.setText("jRadioButton19");
+        radioButton10.setActionCommand("radioButton10");
+
+        answersGroup.add(radioButton11);
+        radioButton11.setText("jRadioButton20");
+        radioButton11.setActionCommand("radioButton11");
+
+        answersGroup.add(radioButton12);
+        radioButton12.setText("jRadioButton21");
+        radioButton12.setActionCommand("radioButton12");
+
+        answersGroup.add(radioButton13);
+        radioButton13.setText("jRadioButton22");
+        radioButton13.setActionCommand("radioButton13");
+
+        answersGroup.add(radioButton14);
+        radioButton14.setText("jRadioButton23");
+        radioButton14.setActionCommand("radioButton14");
+
+        nextQuestionButton.setText("Next question");
+        nextQuestionButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                nextQuestionButtonActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout answersPanelLayout = new javax.swing.GroupLayout(answersPanel);
+        answersPanel.setLayout(answersPanelLayout);
+        answersPanelLayout.setHorizontalGroup(
+            answersPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(answersPanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(answersPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(answersPanelLayout.createSequentialGroup()
+                        .addGroup(answersPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(radioButton8)
+                            .addComponent(radioButton9)
+                            .addComponent(radioButton7)
+                            .addComponent(radioButton6)
+                            .addComponent(radioButton5)
+                            .addComponent(radioButton4)
+                            .addComponent(radioButton3)
+                            .addComponent(radioButton2)
+                            .addComponent(answersLabel))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(answersPanelLayout.createSequentialGroup()
+                        .addGroup(answersPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(radioButton10)
+                            .addComponent(radioButton11)
+                            .addComponent(radioButton1)
+                            .addComponent(radioButton12)
+                            .addComponent(radioButton13)
+                            .addComponent(radioButton14))
+                        .addGap(0, 0, Short.MAX_VALUE))))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, answersPanelLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(nextQuestionButton, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+        answersPanelLayout.setVerticalGroup(
+            answersPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(answersPanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(answersLabel)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(radioButton1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(radioButton2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(radioButton3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(radioButton4)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(radioButton5)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(radioButton6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(radioButton7)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(radioButton8)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(radioButton9)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(radioButton10)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(radioButton11)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(radioButton12)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(radioButton13)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(radioButton14)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(nextQuestionButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        javax.swing.GroupLayout mainPanelLayout = new javax.swing.GroupLayout(mainPanel);
+        mainPanel.setLayout(mainPanelLayout);
+        mainPanelLayout.setHorizontalGroup(
+            mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, mainPanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(answersPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(questionPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(eventsPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+        mainPanelLayout.setVerticalGroup(
+            mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(mainPanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(mainPanelLayout.createSequentialGroup()
+                        .addComponent(questionPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(answersPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(mainPanelLayout.createSequentialGroup()
+                        .addComponent(eventsPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addGap(6, 6, 6))
+        );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addComponent(mainPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 1051, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addComponent(mainPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 700, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void nextQuestionButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextQuestionButtonActionPerformed
+
+        if(answersGroup.getSelection() == null) {
+            //Here we could show the dialog saying that user must select something
+        } else {
+            Knowledge.checkSimilarityForQuestion(questionNumberLabel.getText());
+        }
+       
+    }//GEN-LAST:event_nextQuestionButtonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -79,30 +742,148 @@ public class MainWindow extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new MainWindow().setVisible(true);
+                knowledge = new Knowledge();
+                buttons = new ArrayList<>();
+                System.out.println("<<Knowledge created>>");
+                Question.question1();
+                createButtonList();
+                
             }
         });
-        knowledge = new Knowledge();
-        System.out.println(knowledge.czajownia);
+        
         
     }
     static ArrayList<Event> events;
     static Event testEvent;
     static Knowledge knowledge;
+    static ArrayList<JButton> buttons;
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    public static javax.swing.JButton amalfiButton;
+    public static javax.swing.ButtonGroup answersGroup;
+    private javax.swing.JLabel answersLabel;
+    private javax.swing.JPanel answersPanel;
+    public static javax.swing.JButton aquaparkButton;
+    public static javax.swing.JButton arkadyButton;
+    public static javax.swing.JButton capitolButton;
+    public static javax.swing.JButton capriPizzaButton;
+    public static javax.swing.JButton casaDeLaMusicaButton;
+    public static javax.swing.JButton chaczapuriButton;
+    public static javax.swing.JButton classicFitnessButton;
+    public static javax.swing.JButton creatorBowlingButton;
+    public static javax.swing.JButton czajowniaButton;
+    public static javax.swing.JButton czarnyKotButton;
+    public static javax.swing.JButton daytonaButton;
+    private javax.swing.JLabel eventsLabel;
+    private javax.swing.JPanel eventsPanel;
+    public static javax.swing.JButton fugaMundiButton;
+    public static javax.swing.JButton gafaButton;
+    public static javax.swing.JButton galeriaDominikańskaButton;
+    public static javax.swing.JButton gliniankiButton;
+    public static javax.swing.JButton halaOrbita_basketballButton;
+    public static javax.swing.JButton hastaLaVistaButton;
+    public static javax.swing.JButton kasynoOlimpiqueButton;
+    public static javax.swing.JButton magnoliaButton;
+    private javax.swing.JPanel mainPanel;
+    public static javax.swing.JButton mirazBowlingButton;
+    public static javax.swing.JButton monopolRoofButton;
+    public static javax.swing.JButton mundoButton;
+    public static javax.swing.JButton nextQuestionButton;
+    public static javax.swing.JButton odZmierzchuDoŚwituButton;
+    public static javax.swing.JButton padBarButton;
+    public static javax.swing.JButton polishTheatreButton;
+    public static javax.swing.JButton pureJatomiFitnessPasazGrunwaldzkiButton;
+    public static javax.swing.JButton pureJatomiFitnessRenoma;
+    public static javax.swing.JButton puzzleButton;
+    public static javax.swing.JLabel questionLabel;
+    public static javax.swing.JLabel questionNumberLabel;
+    private javax.swing.JPanel questionPanel;
+    private javax.swing.JLabel questionTitleLabel;
+    public static javax.swing.JRadioButton radioButton1;
+    public static javax.swing.JRadioButton radioButton10;
+    public static javax.swing.JRadioButton radioButton11;
+    public static javax.swing.JRadioButton radioButton12;
+    public static javax.swing.JRadioButton radioButton13;
+    public static javax.swing.JRadioButton radioButton14;
+    public static javax.swing.JRadioButton radioButton2;
+    public static javax.swing.JRadioButton radioButton3;
+    public static javax.swing.JRadioButton radioButton4;
+    public static javax.swing.JRadioButton radioButton5;
+    public static javax.swing.JRadioButton radioButton6;
+    public static javax.swing.JRadioButton radioButton7;
+    public static javax.swing.JRadioButton radioButton8;
+    public static javax.swing.JRadioButton radioButton9;
+    public static javax.swing.JButton renomaButton;
+    public static javax.swing.JButton rodeoBarButton;
+    public static javax.swing.JButton sezamButton;
+    public static javax.swing.JButton skyBowlingButton;
+    public static javax.swing.JButton skyTowerFitnessButton;
+    public static javax.swing.JButton sombreroButton;
+    public static javax.swing.JButton sportwerkButton;
+    public static javax.swing.JButton stadionMiejski_footballButton;
+    public static javax.swing.JButton stadionMiejski_soccerButton;
+    public static javax.swing.JButton stadionMiejski_speedwayButton;
+    public static javax.swing.JButton sushi77Button;
+    public static javax.swing.JButton teatrKomediaButton;
+    public static javax.swing.JButton teatrWspolczesnyButton;
+    public static javax.swing.JButton upButton;
+    public static javax.swing.JButton wroclawskieCentrumSpaButton;
+    public static javax.swing.JButton zooButton;
     // End of variables declaration//GEN-END:variables
     /* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
     *
     * CUSTOM METHODS
     *
     */
-    
-    public double compareEventsAndCalculateSimilarity(Event userEvent, Event[] knowledge, double similarity ){
+    public static void createButtonList(){
+        buttons.add(czajowniaButton);
+        buttons.add(renomaButton);
+        buttons.add(odZmierzchuDoŚwituButton);
+        buttons.add(galeriaDominikańskaButton);
+        buttons.add(magnoliaButton);
+        buttons.add(monopolRoofButton);
+        buttons.add(arkadyButton);
+        buttons.add(upButton);
+        buttons.add(czarnyKotButton);
+        buttons.add(daytonaButton);
+        buttons.add(teatrWspolczesnyButton);
+        buttons.add(gafaButton);
+        buttons.add(polishTheatreButton);
+        buttons.add(sombreroButton);
+        buttons.add(teatrKomediaButton);
+        buttons.add(aquaparkButton);
+        buttons.add(casaDeLaMusicaButton);
+        buttons.add(gliniankiButton);
+        buttons.add(puzzleButton);
+        buttons.add(wroclawskieCentrumSpaButton);
+        buttons.add(stadionMiejski_soccerButton);
+        buttons.add(halaOrbita_basketballButton);
+        buttons.add(stadionMiejski_speedwayButton);
+        buttons.add(mundoButton);
+        buttons.add(stadionMiejski_footballButton);
+        buttons.add(zooButton);
+        buttons.add(padBarButton);
+        buttons.add(capitolButton);
+        buttons.add(kasynoOlimpiqueButton);
+        buttons.add(sushi77Button);
+        buttons.add(chaczapuriButton);
+        buttons.add(amalfiButton);
+        buttons.add(capriPizzaButton);
+        buttons.add(rodeoBarButton);
+        buttons.add(hastaLaVistaButton);
+        buttons.add(sportwerkButton);
+        buttons.add(fugaMundiButton);
+        buttons.add(sezamButton);
+        buttons.add(skyBowlingButton);
+        buttons.add(mirazBowlingButton);
+        buttons.add(creatorBowlingButton);
+        buttons.add(skyTowerFitnessButton);
+        buttons.add(classicFitnessButton);
+        buttons.add(pureJatomiFitnessRenoma);
+        buttons.add(pureJatomiFitnessPasazGrunwaldzkiButton);
         
         
-        
-        
-        return similarity;
     }
+   
 }
 
 

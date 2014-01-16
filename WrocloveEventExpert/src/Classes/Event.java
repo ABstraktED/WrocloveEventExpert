@@ -15,7 +15,7 @@ public class Event {
     
     private String eventName;
     private String[] eventDescription;
-    private AcitivityTypes activityType;
+    private ActivityTypes activityType;
     private ActiveActivities activeActivity;
     private PassiveActivities passiveActivity;
     private AgeCategories ageCategory;
@@ -29,8 +29,10 @@ public class Event {
     private MusicTypes musicType;
     private PeopleAmount peopleAmount;
     private WeatherTypes weatherType;
+    
+    private double similarity;
 
-    public Event(String eventName, String[] eventDescription, AcitivityTypes activityType,ActiveActivities activeActivities, PassiveActivities passiveActivities, AgeCategories ageCategory, Beverages beverage, Cost cost, Day day, Daytime daytime, DressCode dressCode, EventTypes eventType, MusicLoudness musicLoudness, MusicTypes musicType, PeopleAmount peopleAmount, WeatherTypes weatherType) {
+    public Event(String eventName, String[] eventDescription, ActivityTypes activityType,ActiveActivities activeActivities, PassiveActivities passiveActivities, AgeCategories ageCategory, Beverages beverage, Cost cost, Day day, Daytime daytime, DressCode dressCode, EventTypes eventType, MusicLoudness musicLoudness, MusicTypes musicType, PeopleAmount peopleAmount, WeatherTypes weatherType, double similarity) {
         this.eventName = eventName;
         this.eventDescription = eventDescription;
         this.activityType = activityType;
@@ -47,6 +49,7 @@ public class Event {
         this.musicType = musicType;
         this.peopleAmount = peopleAmount;
         this.weatherType = weatherType;
+        this.similarity = similarity;
     }
     /* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
     *
@@ -62,7 +65,7 @@ public class Event {
         this.eventDescription = eventDescription;
     }
 
-    public void setActivityType(AcitivityTypes activityType) {
+    public void setActivityType(ActivityTypes activityType) {
         this.activityType = activityType;
     }
 
@@ -118,6 +121,18 @@ public class Event {
     public void setWeatherType(WeatherTypes weatherType) {
         this.weatherType = weatherType;
     }
+
+    public void setActiveActivity(ActiveActivities activeActivity) {
+        this.activeActivity = activeActivity;
+    }
+
+    public void setPassiveActivity(PassiveActivities passiveActivity) {
+        this.passiveActivity = passiveActivity;
+    }
+
+    public void setSimilarity(double similarity) {
+        this.similarity = similarity;
+    }
     
     
     /* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
@@ -135,16 +150,8 @@ public class Event {
     }
 
     
-    public AcitivityTypes getActivityType() {
+    public ActivityTypes getActivityType() {
         return activityType;
-    }
-
-    public ActiveActivities getActiveActivies() {
-        return activeActivity;
-    }
-
-    public PassiveActivities getPassiveActivities() {
-        return passiveActivity;
     }
 
     public AgeCategories getAgeCategory() {
@@ -189,6 +196,18 @@ public class Event {
 
     public WeatherTypes getWeatherType() {
         return weatherType;
+    }
+
+    public ActiveActivities getActiveActivity() {
+        return activeActivity;
+    }
+
+    public PassiveActivities getPassiveActivity() {
+        return passiveActivity;
+    }
+
+    public double getSimilarity() {
+        return similarity;
     }
     
     

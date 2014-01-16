@@ -10,6 +10,6 @@ package Enums;
  *
  * @author ABstraktED
  */
-public enum AcitivityTypes {
+public enum ActivityTypes {
     PASSIVE,ACTIVE,IRRELEVANT
 }
