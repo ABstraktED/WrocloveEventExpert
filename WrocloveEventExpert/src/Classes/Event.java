@@ -6,6 +6,7 @@
 
 package Classes;
 import Enums.*;
+import java.text.DecimalFormat;
 
 /**
  *
@@ -131,7 +132,11 @@ public class Event {
     }
 
     public void setSimilarity(double similarity) {
-        this.similarity = similarity;
+        
+        DecimalFormat doubleFormatter = new DecimalFormat("#.##");
+        
+        
+        this.similarity = Double.parseDouble(doubleFormatter.format(similarity));
     }
     
     

@@ -22,8 +22,12 @@ import Enums.WeatherTypes;
 import java.util.ArrayList;
 import Classes.Question;
 import Classes.MainWindow;
+import java.awt.Color;
 import java.util.Iterator;
+import javax.swing.JButton;
+import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
+import static javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION;
 
 /**
  *
@@ -1537,7 +1541,7 @@ public class Knowledge {
 
                         double similarity = e.getSimilarity();
                         e.setSimilarity(similarity + 7.14);
-                        
+
                         MainWindow.buttons.get(i).setBorder(new TitledBorder(Double.toString(e.getSimilarity())));
                         i++;
                     }
@@ -2502,6 +2506,66 @@ public class Knowledge {
                 break;
         }
 
+    }
+
+    public static void calculateAndColorTheEvents() {
+
+        double bestSimilarity = 0.0;
+        double mediumSimilarity = 0.0;
+        double worstSimilarity = 0.0;
+        double currentSimilarity = 0.0;
+        boolean wasAlgorithmInterupted
+                = false;
+
+        for (int index = 0; index < events.size(); index++) {
+            
+            if(wasAlgorithmInterupted){
+                index = 0;
+                wasAlgorithmInterupted = false;
+            }
+            
+            currentSimilarity = events.get(index).getSimilarity();
+
+            if (bestSimilarity == 0) // Assume that current similarity is the best similarity
+            {
+                bestSimilarity = currentSimilarity;
+            }
+
+            if (currentSimilarity > bestSimilarity) {
+                //Current similarity is the highest. Set it and reset the execution.
+                bestSimilarity = currentSimilarity;
+                index = 0;
+                wasAlgorithmInterupted = true;
+            } else if (currentSimilarity == bestSimilarity) {
+                //Here paint the titleBorder green and continue executing
+                for (int paintIndex = 0; paintIndex < MainWindow.buttons.size(); paintIndex++) {
+                    MainWindow.buttons.get(index).setBorder(new TitledBorder(new LineBorder(Color.GREEN, 3), Double.toString(events.get(index).getSimilarity()), DEFAULT_JUSTIFICATION, TitledBorder.DEFAULT_POSITION, null, Color.BLACK));
+
+                }
+
+            } else if (currentSimilarity < bestSimilarity) {
+                //current similarity is lower then bestSimilarity. Assume that this is the mediumSimilarity.
+                if (mediumSimilarity == 0) {
+                    mediumSimilarity = currentSimilarity;
+                }
+                if (currentSimilarity > mediumSimilarity) {
+                    mediumSimilarity = currentSimilarity;
+                    index = 0;
+                    wasAlgorithmInterupted = true;
+                } else if (currentSimilarity == mediumSimilarity) {
+                    //Here paint the TitleBorder orange and continue executing
+
+                    MainWindow.buttons.get(index).setBorder(new TitledBorder(new LineBorder(Color.ORANGE, 2), Double.toString(events.get(index).getSimilarity()), DEFAULT_JUSTIFICATION, TitledBorder.DEFAULT_POSITION, null, Color.BLACK));
+
+                } else if (currentSimilarity < mediumSimilarity) {
+                    //Assume that those are the lowest similarities. Paint them all red.
+
+                    MainWindow.buttons.get(index).setBorder(new TitledBorder(new LineBorder(Color.RED, 1), Double.toString(events.get(index).getSimilarity()), DEFAULT_JUSTIFICATION, TitledBorder.DEFAULT_POSITION, null, Color.BLACK));
+
+                }
+            }
+
+        }
     }
 
 }

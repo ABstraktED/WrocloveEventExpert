@@ -144,6 +144,9 @@ public class Question {
         radioButton12.setText("No used");
         radioButton13.setText("No used");
         radioButton14.setText("No used");
+        
+        // Calculating the best guesses and showing them.
+        Knowledge.calculateAndColorTheEvents();
     }
     public static void question3() {
         /*
@@ -202,7 +205,8 @@ public class Question {
         radioButton13.setText("No used");
         radioButton14.setText("No used");
         
-        
+        // Calculating the best guesses and showing them.
+        Knowledge.calculateAndColorTheEvents();
     }
     
     public static void question4() {
@@ -260,6 +264,9 @@ public class Question {
         radioButton12.setText("No used");
         radioButton13.setText("No used");
         radioButton14.setText("No used");
+        
+        // Calculating the best guesses and showing them.
+        Knowledge.calculateAndColorTheEvents();
     }
     public static void question5() {
         /*
@@ -316,6 +323,9 @@ public class Question {
         radioButton12.setText("No used");
         radioButton13.setText("No used");
         radioButton14.setText("No used");
+        
+        // Calculating the best guesses and showing them.
+        Knowledge.calculateAndColorTheEvents();
     }
     public static void question6() {
         /*
@@ -372,6 +382,9 @@ public class Question {
         radioButton12.setText("No used");
         radioButton13.setText("No used");
         radioButton14.setText("No used");
+        
+        // Calculating the best guesses and showing them.
+        Knowledge.calculateAndColorTheEvents();
     }
     public static void question7() {
         /*
@@ -428,6 +441,9 @@ public class Question {
         radioButton12.setText("No used");
         radioButton13.setText("No used");
         radioButton14.setText("No used");
+        
+        // Calculating the best guesses and showing them.
+        Knowledge.calculateAndColorTheEvents();
     }
     public static void question8() {
         /*
@@ -484,6 +500,9 @@ public class Question {
         radioButton12.setText("No used");
         radioButton13.setText("No used");
         radioButton14.setText("No used");
+        
+        // Calculating the best guesses and showing them.
+        Knowledge.calculateAndColorTheEvents();
     }
     public static void question9() {
         /*
@@ -540,6 +559,9 @@ public class Question {
         radioButton12.setText("No used");
         radioButton13.setText("No used");
         radioButton14.setText("No used");
+        
+        // Calculating the best guesses and showing them.
+        Knowledge.calculateAndColorTheEvents();
     }
     public static void question9a() {
         /*
@@ -596,6 +618,9 @@ public class Question {
         radioButton12.setText("I like smoking shisha.");
         radioButton13.setText("Watching speedway.");
         radioButton14.setText("Don't really care.");
+        
+        // Calculating the best guesses and showing them.
+        Knowledge.calculateAndColorTheEvents();
     }
     public static void question9b() {
         /*
@@ -652,6 +677,9 @@ public class Question {
         radioButton12.setText("No used");
         radioButton13.setText("No used");
         radioButton14.setText("No used");
+        
+        // Calculating the best guesses and showing them.
+        Knowledge.calculateAndColorTheEvents();
     }
     public static void question10() {
         /*
@@ -708,6 +736,9 @@ public class Question {
         radioButton12.setText("No used");
         radioButton13.setText("No used");
         radioButton14.setText("No used");
+        
+        // Calculating the best guesses and showing them.
+        Knowledge.calculateAndColorTheEvents();
     }
     public static void question11() {
         /*
@@ -764,6 +795,9 @@ public class Question {
         radioButton12.setText("No used");
         radioButton13.setText("No used");
         radioButton14.setText("No used");
+        
+        // Calculating the best guesses and showing them.
+        Knowledge.calculateAndColorTheEvents();
     }
     public static void question12() {
         /*
@@ -820,6 +854,9 @@ public class Question {
         radioButton12.setText("No used");
         radioButton13.setText("No used");
         radioButton14.setText("No used");
+        
+        // Calculating the best guesses and showing them.
+        Knowledge.calculateAndColorTheEvents();
     }
     
     public static void theEnd(){
@@ -877,5 +914,8 @@ public class Question {
         radioButton12.setText("No used");
         radioButton13.setText("No used");
         radioButton14.setText("No used");
+        
+        // Calculating the best guesses and showing them.
+        Knowledge.calculateAndColorTheEvents();
     }
 }

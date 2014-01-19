@@ -128,6 +128,11 @@ public class MainWindow extends javax.swing.JFrame {
         czajowniaButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
         czajowniaButton.setText("Czajownia");
         czajowniaButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+        czajowniaButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                czajowniaButtonActionPerformed(evt);
+            }
+        });
 
         renomaButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
         renomaButton.setText("Renoma");
@@ -164,6 +169,11 @@ public class MainWindow extends javax.swing.JFrame {
         daytonaButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
         daytonaButton.setText("Daytona");
         daytonaButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+        daytonaButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                daytonaButtonActionPerformed(evt);
+            }
+        });
 
         teatrWspolczesnyButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
         teatrWspolczesnyButton.setText("Modern Theatre");
@@ -222,6 +232,11 @@ public class MainWindow extends javax.swing.JFrame {
         mundoButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
         mundoButton.setText("Mundo71");
         mundoButton.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "0%"));
+        mundoButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mundoButtonActionPerformed(evt);
+            }
+        });
 
         stadionMiejski_footballButton.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
         stadionMiejski_footballButton.setText("City's Stadium (football)");
@@ -710,6 +725,36 @@ public class MainWindow extends javax.swing.JFrame {
         }
        
     }//GEN-LAST:event_nextQuestionButtonActionPerformed
+
+    private void mundoButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mundoButtonActionPerformed
+        // TODO add your handling code here:
+        EventDescriptionWindow newWindow = new EventDescriptionWindow();
+        EventDescriptionWindow.setEventDesription(knowledge.mundo.getEventDescription()[0]);
+        EventDescriptionWindow.setEventName(knowledge.mundo.getEventName().toString());
+        EventDescriptionWindow.setEventStreet(knowledge.mundo.getEventDescription()[3]);
+        
+        newWindow.setVisible(true);
+    }//GEN-LAST:event_mundoButtonActionPerformed
+
+    private void czajowniaButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_czajowniaButtonActionPerformed
+        // TODO add your handling code here:
+        EventDescriptionWindow newWindow = new EventDescriptionWindow();
+        EventDescriptionWindow.setEventDesription(knowledge.czajownia.getEventDescription()[0]);
+        EventDescriptionWindow.setEventName(knowledge.czajownia.getEventName().toString());
+        EventDescriptionWindow.setEventStreet(knowledge.czajownia.getEventDescription()[3]);
+        
+        newWindow.setVisible(true);
+    }//GEN-LAST:event_czajowniaButtonActionPerformed
+
+    private void daytonaButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_daytonaButtonActionPerformed
+        // TODO add your handling code here:
+        EventDescriptionWindow newWindow = new EventDescriptionWindow();
+        EventDescriptionWindow.setEventDesription(knowledge.daytona.getEventDescription()[0]);
+        EventDescriptionWindow.setEventName(knowledge.daytona.getEventName().toString());
+        EventDescriptionWindow.setEventStreet(knowledge.daytona.getEventDescription()[3]);
+        
+        newWindow.setVisible(true);
+    }//GEN-LAST:event_daytonaButtonActionPerformed
 
     /**
      * @param args the command line arguments
